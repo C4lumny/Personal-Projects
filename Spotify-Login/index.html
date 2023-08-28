@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Iniciar Sesión - Spotify</title>
+    <title>Iniciar sesión - Spotify</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -20,33 +20,67 @@
       <div class="container">
         <h1>Inicia sesión en Spotify</h1>
         <ul class="buttons">
-            <li>
-                <button class="button Google">
-                    <span></span>
-                    <span>Continuar con Google</span>
-                </button>
-            </li>
-            <li>
-                <button class="button Facebook">
-                    <span></span>
-                    <span>Continuar con Facebook</span>
-                </button>
-            </li>
-            <li>
-                <button class="button Apple">
-                    <span></span>
-                    <span>Continuar con Apple</span>
-                </button>
-            </li>
-            <li>
-                <button class="button number">
-                    <span></span>
-                    <span>Continuar con número de teléfono</span>
-                </button>
-            </li>
+          <li>
+            <button class="button Google">
+              <span class="logo-button"
+                ><img
+                  src="https://static.vecteezy.com/system/resources/previews/022/484/503/original/google-lens-icon-logo-symbol-free-png.png"
+                  alt=""
+              /></span>
+              <span class="button-text">Continuar con Google</span>
+            </button>
+          </li>
+          <li>
+            <button class="button Facebook">
+              <span class="logo-button">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png"
+                  alt=""
+                />
+              </span>
+              <span class="button-text">Continuar con Facebook</span>
+            </button>
+          </li>
+          <li>
+            <button class="button Apple">
+              <span class="logo-button">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/1724px-Apple_logo_white.svg.png"
+                  alt=""
+                />
+              </span>
+              <span class="button-text">Continuar con Apple</span>
+            </button>
+          </li>
+          <li>
+            <button class="button number">
+              <span></span>
+              <span>Continuar con número de teléfono</span>
+            </button>
+          </li>
         </ul>
+        <div class="divider"></div>
+        <!--Iniciar sesión con redes sociales-->
+        <div class="user-information">
+          <div class="user">
+            <span class="information-text">Email o nombre de usuario</span>
+            <input type="text" placeholder="Email o nombre de usuario" />
+          </div>
+          <div class="password">
+            <span class="information-text">Contraseña</span>
+            <input type="password" placeholder="Contraseña" />
+           </div>
+          <div class="radio-remember">
+            <input type="radio" value="Recordarme" id="Recordarme" />
+            <label for="Recordarme">Recordarme</label>
+          </div>
+
+
+        </div>
       </div>
     </main>
     <!--Main-->
   </body>
 </html>
+
+<!--Lumny-->
