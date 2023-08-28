@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Circular+Std:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: CircularSpTitle, CircularSpTitle-Tall, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;;
+  background-color: #171717;
+  color: #ffffff;
+}
+
+header {
+  height: 70px;
+}
+
+header, .logo {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo img {
+  height: 35px;
+  margin-left: 20px;
+}
+
+.container{
+    background-color: black;
+    margin: 30px auto;
+    width: 45%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    margin: 40px 0;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+ul{
+    list-style: none;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+}
+
+.button{
+    background-color: black;
+    border: 1px #727272 solid;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;    
+    width: 45vh;
+}
+
+.button:hover{
+    border-color: #ffffff;
+}
